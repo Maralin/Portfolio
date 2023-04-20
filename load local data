@@ -1,0 +1,4 @@
+LOAD DATA LOCAL INFILE '/Users/Maralin/Desktop/Excel data set sample/BIKES/202303-divvy-tripdata.csv'
+INTO TABLE March
+fields terminated by ','
+ignore 1 rows;
